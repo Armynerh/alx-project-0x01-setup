@@ -79,5 +79,5 @@ export interface Company {
 
 export interface UserModalProps {
   onClose: () => void;
-  onSubmit: (usr: UserData) => void;
+  onSubmit: (post: UserProps) => void;
 }
